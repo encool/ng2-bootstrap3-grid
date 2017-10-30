@@ -1,6 +1,6 @@
 # Ng2Bootstrap3Grid
-ex.:
 
+```
 <div bsContainer>
   <div bsRow>
     <div bsCol.sm="6" bsCol.xs="12">.col-md-4</div>
@@ -14,3 +14,4 @@ ex.:
     <div bsCol.md="8">.col-md-8</div>
   </div>
 </div>
+```
