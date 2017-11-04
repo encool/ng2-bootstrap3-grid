@@ -1,6 +1,6 @@
 {
   "name": "ng2-bootstrap3-grid",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
