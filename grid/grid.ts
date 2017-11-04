@@ -79,7 +79,4 @@ export class ColDirective implements OnInit {
         }
     }
 
-    addClassString(_class: string) {
-        this._class = this._class + " " + _class
-    }
 }
