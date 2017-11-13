@@ -11,6 +11,9 @@
     "typeRoots": [
       "node_modules/@types"
     ],
+    // "paths": {
+    //   "@ng2-bootstrap3-grid": [ "./dist" ]
+    // },
     "lib": [
       "es2017",
       "dom"
