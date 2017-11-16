@@ -11,7 +11,7 @@
     "module": "es2015",
     "types": [],
     "paths": {
-      "@ng2-bootstrap3-grid": [ "../dist" ]
+      "ng2-bootstrap3-grid": [ "../dist" ]
     }
   },
   "exclude": [
