@@ -43,6 +43,7 @@
     "karma-jasmine-html-reporter": "^0.2.2",
     "karma-remap-coverage": "^0.1.4",
     "lite-server": "^2.2.2",
+    "ng-packagr": "^2.0.0-rc.2",
     "rimraf": "^2.6.1",
     "rollup": "^0.42.0",
     "rollup-plugin-commonjs": "^8.0.2",
