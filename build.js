@@ -16,7 +16,7 @@ const inlineResources = require('./inline-resources');
 const libName = require('./package.json').name;
 const rootFolder = path.join(__dirname);
 const compilationFolder = path.join(rootFolder, 'out-tsc');
-const srcFolder = path.join(rootFolder, './grid');
+const srcFolder = path.join(rootFolder, 'grid');
 const distFolder = path.join(rootFolder, 'dist');
 const tempLibFolder = path.join(compilationFolder, 'lib');
 const es5OutputFolder = path.join(compilationFolder, 'lib-es5');
@@ -38,8 +38,6 @@ return Promise.resolve()
   .then(() => console.log('ES5 compilation succeeded.'))
   // Copy typings and metadata to `dist/` folder.
   .then(() => Promise.resolve()
-    .then(() => _relativeCopy('**/*.js', es2015OutputFolder, distFolder))
-    .then(() => _relativeCopy('**/*.js.map', es2015OutputFolder, distFolder))
     .then(() => _relativeCopy('**/*.d.ts', es2015OutputFolder, distFolder))
     .then(() => _relativeCopy('**/*.metadata.json', es2015OutputFolder, distFolder))
     .then(() => console.log('Typings and metadata copy succeeded.'))

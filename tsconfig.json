@@ -3,7 +3,8 @@
   "compilerOptions": {
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
-    "declaration": false,
+    "module": "es2015",
+    "declaration": true,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -11,6 +12,19 @@
     "typeRoots": [
       "node_modules/@types"
     ],
+
+    // "target": "es5",
+    // "module": "es2015",
+    // "moduleResolution": "node",
+    // "sourceMap": true,
+    // "inlineSources": true,
+    // "declaration": true,
+    // "experimentalDecorators": true,
+    // "noImplicitAny": true,
+    // "suppressImplicitAnyIndexErrors": true,
+    // "skipLibCheck": true,
+    // "stripInternal": true,
+
     // "paths": {
     //   "@ng2-bootstrap3-grid": [ "./dist" ]
     // },
