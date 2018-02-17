@@ -82,7 +82,7 @@ export class ColDirective implements OnInit {
 }
 
 import { NgModule } from '@angular/core';
-
+import { HiddenDirective } from "./responsive-utilities";
 // import { ContainerDirective, ContainerFluidDirective, RowDirective, ColDirective } from "./grid";
 
 @NgModule({
@@ -93,13 +93,15 @@ import { NgModule } from '@angular/core';
         ContainerDirective,
         ContainerFluidDirective,
         RowDirective,
-        ColDirective
+        ColDirective,
+        HiddenDirective
     ],
     exports: [
         ContainerDirective,
         ContainerFluidDirective,
         RowDirective,
-        ColDirective
+        ColDirective,
+        HiddenDirective
     ]
 })
 export class Bootstrap3GridModule { }
